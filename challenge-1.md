@@ -1,5 +1,7 @@
 # In-Class Challenge: User Intake Logic Builder
 
+Please build it in your unit-3 folder but outside of js folder.
+
 ## Objective
 Practice:
 - Variables
