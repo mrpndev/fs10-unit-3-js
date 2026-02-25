@@ -61,4 +61,9 @@ console.log(isTeacher);
 	* lookup the concept of style guide
 */
 
+// You can declare a variable and later initialize its value
+let year;
+console.log(year) // undefined - default value for JS
 
+year = 2026
+console.log(year)

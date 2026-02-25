@@ -116,3 +116,55 @@ console.log(Boolean(undefined))
 	* undefined - we haven't got a freakin' clue, can be anything
 */
 
+let graduated = null
+console.log(graduated)
+
+/* 
+	? Operators
+	* add + 
+	* substract -
+	* divide /
+	* power **
+	* dot for float .
+	* modulo %
+	* assignment = (read it as IS, not equal)
+	* comparison == (double)
+	* comparison === (triple)
+
+	? Expressions
+	* play alongside operators
+	* two or more values grouped using ()
+	* resolved by assigning some operator to it
+*/
+
+console.log(5 ** 5)
+console.log(5 == 5)
+console.log(5 == 7)
+
+console.log(5 == "7")
+console.log(5 == "5") // true... WHOA
+
+/* 
+	? Type Coercion
+	* if it walks like a duck, quacks like a duck...
+	* duck typed programming language
+	* JS tries to coerce data type if it can
+	* JS takes the no 5 and turns it into a string, then compares again
+*/
+
+// ? How do we stop it from coercing? Use triple equals!
+console.log(5 === "5") 
+// takes a look at value AND data type before deciding boolean value of expression
+
+console.log("potato" + 25) // gets concatenated and becomes a string
+console.log(false + "stuart") // takes non string obj and stringyfies it
+console.log(true + 7)
+console.log(undefined + 8) // not a Boolean even though falsey, triggers NaN
+
+// TODO: play around with console log adding different data types together to better understand them
+
+let sumOfStuff = "potato" + undefined + 7
+console.log(sumOfStuff)
+
+
+
