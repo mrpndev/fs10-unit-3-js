@@ -62,5 +62,8 @@ console.log(fullName) // p is still there, not "stolen", because immutable
 	? String methods
 	* .length (property)
 	* .slice()
-
+	* .toUpperCase()
+	* .toLowerCase()
 */
+
+console.log(fullName.length)
